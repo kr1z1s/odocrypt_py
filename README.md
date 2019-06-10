@@ -12,6 +12,9 @@ Install Python modules:
 
     python setup.py install --user
 
+Mainnet by default
+Change const "MAINNET_EPOCH_LEN" to "TESTNET_EPOCH_LEN" in odocryptmodule.cpp to work in testnet 
+
 Using:
 -------------------------
     import odocrypt_hash 
